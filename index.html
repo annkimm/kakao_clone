@@ -1,26 +1,94 @@
 <!DOCTYPE html>
-<!--
-  doctype:  selt-contained 태그, 혼자 스스로 열고 닫는 태그
- 이 태그 자체로 정보를 제공하기 때문
-
-  head:  브라우저에게 필요한 정보를 제공하고, 유저에게는 보이지 않음
--->
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="author" content="minji kim">
-    <title>This is my title</title>
-  </head>
-  <body>
-    <section>
-      <header id="headerNumberOne" class="defaultHeader">
-          <h1>Title of a section</h1>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>friends</title>
+</head>
+<body>
+  <header>
+    <div class="header__top">
+        <div class="header__column">
+          <i class="fa fa-plane"></i>
+          <i class="fa fa-wifi"></i>
+        </div>
+      <div class="header__column">
+        <div class="header__time">18:38</div>
+      </div>
+      <div class="header__column">
+        <i class="fa fa-moon-o"></i>
+        <i class="fa fa-bluetooth-b"></i>
+        <span class="header__battery">66% <i class="fa fa-battery-full"></i></span>
+      </div>
+    </div>
+    <div class="header__bottom">
+        <div class="header__column">
+          <span class="header__txt">Manage</span>
+        </div>
+        <div class="header__column">
+            <span class="header__txt">Friends <span class="header__number">1</span></span>
+        </div>
+        <div class="header__column">
+          <i class="fa fa-cog fa-lg"></i>
+        </div>
+    </div>
+  </header>
+  <main class="frineds">
+    <div class="search-bar">
+      <i class="fa fa-search"></i>
+      <input type="text" placeholder="Find friends, chats, plus friends">
+    </div>
+    <section class="freindes__section">
+      <header class="freindes__section-header">
+        <h6 class="friends__section-title">My Profile</h6>
+      </header>
+      <div class="friends__section-rows">
+        <div class="friends__section-row">
+          <img src="" alt="">
+          <span class="friends__section-name">ann kim</span>
+        </div>
+        <div class="friends__section-row">
+          <img src="" alt="">
+          <span class="friends__section-name">frineds' name Display</span>
+        </div>
+      </div>
+    </section>
+    <section class="freindes__section">
+      <header class="freindes__section-header">
+        <h6 class="friends__section-title"></h6>
       </header>
     </section>
-    <div id="differentHeader" class="defaultHeader">
-      <h1>Title of the unkown container</h1>
+    <div class="friends__section-rows">
+      <div class="friends__section-row">
+        <div class="friends__section-column">
+          <img src="" alt="">
+          <span class="friends__section-name">LYNN</span>
+        </div>
+        <span class="friends__section-tagline">
+          Life is short. So live your life.
+        </span>
+      </div>
     </div>
-    <h1>my big title</h1>
-    <h6>my small title</h6>
-  </body>
+  </main>
+  <nav class="tab-bar">
+    <a href="index.html" class="tab-bar__tab tab-bar__tab-selected">
+      <i class="fa fa-user"></i>
+      <span class="tab-bar__title">Frinds</span>
+    </a>
+    <a href="chats.html" class="tab-bar__tab">
+      <i class="fa fa-comment"></i>
+      <span class="tab-bar__title">Chats</span>
+    </a>
+    <a href="find.html" class="tab-bar__tab">
+      <i class="fa fa-search"></i>
+      <span class="tab-bar__title">Finds</span>
+    </a>
+    <a href="more.html" class="tab-bar__tab">
+      <i class="fa fa-ellipsis-h"></i>
+      <span class="tab-bar__title">More</span>
+    </a>
+  </nav>
+</body>
 </html>
