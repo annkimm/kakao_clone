@@ -1,0 +1,49 @@
+.find .find__options {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  padding: 25px 0 15px;
+  justify-content: space-between;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+  background-color: #eee;
+}
+
+.find__options .find_option {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 5px;
+  color: #523737;
+}
+
+.find_option i {
+  margin-bottom: 15px;
+}
+
+.find_option span {
+  font-size: 12px;
+}
+
+.find__recommended header {
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #b4b4b4;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.recommended_none {
+  padding: 20px 0;
+  text-align: center;
+  color: #b4b4b4;
+  font-size: 14px;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}

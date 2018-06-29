@@ -1,0 +1,6 @@
+@media screen and (min-width: 140px) and (max-width: 768px) {
+  /*orientation:landscrape <->portrait -> 미디어쿼리: 핸드폰 가로버전,세로버전*/
+  div.bgScreenTxt {
+    display: none;
+  }
+}
